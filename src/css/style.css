@@ -1,0 +1,134 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #293651;
+    padding-left: 150px;
+    padding-top: 40px;
+    
+  }
+  .Bold{
+    color:#293651;
+    font-size: 19px;
+  }
+  
+  .titulo {
+    font-family: montserrat;
+    color: #00A78E;
+    font-weight: lighter;
+    letter-spacing: 4px;
+  }
+  
+  .subtitulo {
+    font-family: montserrat;
+    color: #293651;
+    font-weight: lighter;
+    letter-spacing: 4px;
+  }
+  
+  .texto{
+    color: #929396;
+    padding-top: 20px;
+    font-size: 20px;
+    letter-spacing: 0px;
+  }
+  
+  a {
+    font-family: montserrat;
+    background-color: #00A78E;
+    border: none;
+    color: white;
+    padding: 13px 38px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+   
+    margin-top: 15px;
+    font-weight: lighter;
+  }
+  
+  .container {
+    margin-top: 10px;
+  }
+  
+  .imagem {
+    padding-top: 20px;
+    padding-left:370px;
+  }
+
+  /*---------------------SOBRE---------------------- */
+  .titulo_sobre{
+    font-family: montserrat;
+    color:#293651;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 0px;
+  }
+
+  .text_sobre{
+    color: #929396;
+    padding-top: 20px;
+    font-size: 20px;
+    letter-spacing: 0px;
+  }
+
+  hr {
+	border: 0;
+	border-top: 3px solid #00A78E;  
+    margin-right: 730px;
+}
+
+/*-----------------------skills---------------------------*/
+#linha-horizontal {
+  width: 300px;
+  border: 1px solid #7BC673;
+  background-color: #7BC673;
+}
+
+.bean-skills { 
+	width: 50%;
+  margin: 0 auto;
+  padding:0;
+	}
+
+  ul.bean-skillset {
+    float: left;
+    width: 100%;
+    }
+  
+  .skill-percent { 
+    float: right; 
+    }
+  
+  li.skill-bar {
+    background-color: #7BC673;
+    color: #FFF;
+    font: bold 12px/23px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    margin-bottom: 3px;
+    padding: 2px 8px;
+    width: 300px;	
+  }
+
+  /*-----------------------projects---------------------------*/
+.projects{
+  margin-bottom:600px;
+}
+.projetos_box{
+  background-color: #929396;
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  float: left;
+}
+
+/*-----------------------contatos---------------------------*/
+
+.contato_box{
+  background-color: #7BC673;
+  height: 250px;
+  width: 900px;
+}
+
+
