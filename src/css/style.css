@@ -3,13 +3,13 @@ body {
     font-size: 24px;
     font-weight: 400;
     color: #293651;
-    padding-left: 150px;
-    padding-top: 40px;
-    
+   padding: 50px 150px 0px 150px;
   }
   .Bold{
     color:#293651;
-    font-size: 19px;
+    font-size: 40px;
+    font-weight: bolder;
+    padding:10px 0px 10px 0px;
   }
   
   .titulo {
@@ -17,6 +17,7 @@ body {
     color: #00A78E;
     font-weight: lighter;
     letter-spacing: 4px;
+    
   }
   
   .subtitulo {
@@ -49,7 +50,7 @@ body {
     font-weight: lighter;
   }
   
-  .container {
+    a > .botao {
     margin-top: 10px;
   }
   
@@ -82,53 +83,61 @@ body {
 
 /*-----------------------skills---------------------------*/
 #linha-horizontal {
-  width: 300px;
-  border: 1px solid #7BC673;
-  background-color: #7BC673;
+  width: 150px;
+  margin-top: 10px;
+  border: 3px solid #00A78E;
+  background-color: #00A78E;
+  border-radius: 5px;
 }
 
-.bean-skills { 
-	width: 50%;
-  margin: 0 auto;
-  padding:0;
-	}
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  border-radius: 5px;
+  margin-top: 10px;
+}
 
-  ul.bean-skillset {
-    float: left;
-    width: 100%;
-    }
-  
-  .skill-percent { 
-    float: right; 
-    }
-  
-  li.skill-bar {
-    background-color: #7BC673;
-    color: #FFF;
-    font: bold 12px/23px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-    margin-bottom: 3px;
-    padding: 2px 8px;
-    width: 300px;	
-  }
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+  border-radius: 5px;
+  margin-top: 10px;
+}
 
+.ux {width: 85%; background-color: #00A78E;} 
+.webdesign {width: 75%; background-color: #00A78E;} 
+.html {width: 90%; background-color: #00A78E;} 
+.sketch {width: 65%; background-color: #00A78E;} 
   /*-----------------------projects---------------------------*/
-.projects{
-  margin-bottom:600px;
+.projetos{
+  margin-bottom:400px;
 }
+
 .projetos_box{
-  background-color: #929396;
+  background-color: #ddd;
   width: 250px;
   height: 250px;
   margin: 10px;
   float: left;
+  border-radius: 5px;
 }
 
 /*-----------------------contatos---------------------------*/
 
 .contato_box{
-  background-color: #7BC673;
+  background-color: #00A78E;;
   height: 250px;
-  width: 900px;
+  width: 100%;
+  border-radius: 10px;
+
 }
 
-
+/*-----------------------footer---------------------------*/
+footer{
+  margin-top: 50px;
+  background-color: #ddd;
+  height:100px;
+  
+}
