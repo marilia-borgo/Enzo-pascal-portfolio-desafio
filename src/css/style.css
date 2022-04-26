@@ -57,6 +57,7 @@ body {
   .imagem {
     padding-top: 20px;
     padding-left:370px;
+  
   }
 
   /*---------------------SOBRE---------------------- */
@@ -111,14 +112,22 @@ body {
 .html {width: 90%; background-color: #00A78E;} 
 .sketch {width: 65%; background-color: #00A78E;} 
   /*-----------------------projects---------------------------*/
-.projetos{
-  margin-bottom:400px;
+
+
+
+  .projetos{
+  display: grid;
+  column-gap: 0px;
+  row-gap: 0px;
+  grid-template-columns: 450px 450px ;
+  justify-content: center;
+
 }
 
 .projetos_box{
   background-color: #ddd;
-  width: 250px;
-  height: 250px;
+  width: 310px;
+  height: 310px;
   margin: 10px;
   float: left;
   border-radius: 5px;
@@ -131,6 +140,7 @@ body {
   height: 250px;
   width: 100%;
   border-radius: 10px;
+
 
 }
 
