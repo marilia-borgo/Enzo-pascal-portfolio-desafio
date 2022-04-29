@@ -247,17 +247,18 @@ footer>.Bold {
 
 /*----------------------------------------media queries------------------------------------------*/
 
-
-    @media only screen and (min-width: 600px) {
+/*notebbok*/
+@media only screen   
+and (min-width: 800px)   
+and (max-width: 1500px){
       body{
         padding-left: 10%;
         padding-right: 10%;
       }
-
       .icons {
         padding-left: 29%;
       }
-      }
+  }
 
 
 
