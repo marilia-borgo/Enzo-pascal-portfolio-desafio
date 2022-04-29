@@ -1,12 +1,13 @@
 body {
-  position:relative; 
+  position: relative;
   font-family: "Montserrat", sans-serif;
   font-size: 24px;
   font-weight: 400;
   color: #293651;
   padding: 50px 500px 100px 500px;
 }
- main >.Bold  {
+
+main>.Bold {
   color: #293651;
   font-size: 40px;
   font-weight: bolder;
@@ -50,13 +51,13 @@ a {
   font-weight: lighter;
 }
 
-a > .botao {
+a>.botao {
   margin-top: 10px;
 }
 
 .imagem {
   padding-top: 20px;
-  
+
 }
 
 /*---------------------SOBRE---------------------- */
@@ -87,13 +88,13 @@ hr {
 
 
 /*-----------------------skills---------------------------*/
-.center_align{
+.center_align {
   display: grid;
   justify-content: center;
 }
 
 
-.Bold  {
+.Bold {
   color: #293651;
   font-size: 40px;
   font-weight: bolder;
@@ -111,17 +112,23 @@ hr {
 }
 
 .container {
-  width: 100%; /* Full width */
-  background-color: #ddd; /* Grey background */
+  width: 100%;
+  /* Full width */
+  background-color: #ddd;
+  /* Grey background */
   border-radius: 5px;
   margin-top: 10px;
 }
 
 .skills {
-  text-align: right; /* Right-align text */
-  padding-top: 10px; /* Add top padding */
-  padding-bottom: 10px; /* Add bottom padding */
-  color: white; /* White text color */
+  text-align: right;
+  /* Right-align text */
+  padding-top: 10px;
+  /* Add top padding */
+  padding-bottom: 10px;
+  /* Add bottom padding */
+  color: white;
+  /* White text color */
   border-radius: 5px;
   margin-top: 10px;
 }
@@ -130,18 +137,22 @@ hr {
   width: 85%;
   background-color: #00a78e;
 }
+
 .webdesign {
   width: 75%;
   background-color: #00a78e;
 }
+
 .html {
   width: 90%;
   background-color: #00a78e;
 }
+
 .sketch {
   width: 65%;
   background-color: #00a78e;
 }
+
 /*-----------------------projects---------------------------*/
 
 .projetos {
@@ -160,9 +171,13 @@ hr {
   border-radius: 5px;
   padding: 30px;
   filter: drop-shadow(10px 10px 6px #b9b8b8);
-  
+
 }
-.uil-palette, .uil-object-group, .uil-house-user, .uil-brackets-curly{
+
+.uil-palette,
+.uil-object-group,
+.uil-house-user,
+.uil-brackets-curly {
   font-size: 70px;
   color: #00a78e;
 }
@@ -183,6 +198,7 @@ hr {
   margin-left: 50px;
   color: aliceblue;
 }
+
 .linha-horizontal_contato {
   width: 150px;
   margin-top: 10px;
@@ -195,31 +211,177 @@ hr {
 
 /*-----------------------footer---------------------------*/
 footer {
-   position: absolute; 
-    left: 0 ; right: 0; bottom: 0; 
-    height:100px;
-    background-color: #ddd;
-    height: 100px;
-    width: 100%;
-    padding-top: 50px;
-    
-    
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100px;
+  background-color: #ddd;
+  height: 100px;
+  width: 100%;
+  padding-top: 50px;
+
+
+}
+
+footer>.Bold {
+  color: #293651;
+  font-size: 40px;
+  font-weight: bolder;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+}
+
+.icons {
+  padding-left: 35%;
+}
+
+.uil-facebook-f,
+.uil-twitter-alt,
+.uil-instagram,
+.uil-linkedin-alt {
+  font-size: 40px;
+  color: #00a78e;
+  margin-left: 80px;
+}
+
+/*----------------------------------------media queries------------------------------------------*/
+
+/*notebook
+    @media only screen and (min-width: 600px) {
+      body{
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+      }*/
+
+
+
+/*celular*/
+
+@media only screen and (max-width: 600px) {
+
+  /*------------------------main-------------------------------------*/
+  body {
+    padding-left: 10px;
+    padding-right: 10px;
   }
-  footer >.Bold  {
+
+  main>.Bold {
     color: #293651;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bolder;
+    padding: 0px 0px 10px 0px;
+  }
+
+  .titulo {
+    font-size: 15;
+    font-family: montserrat;
+    color: #00a78e;
+    font-weight: lighter;
+    letter-spacing: 3px;
+  }
+
+  .subtitulo {
+    font-size: 15;
+    font-family: montserrat;
+    color: #293651;
+    font-weight: lighter;
+    letter-spacing: 3px;
+  }
+
+  .texto {
+    color: #929396;
+    padding-top: 10px;
+    font-size: 15px;
+    letter-spacing: 0px;
+  }
+
+  /*-----------------------skills---------------------------*/
+  .Bold {
+    font-size: 40px;
     padding: 10px 0px 10px 0px;
-    text-align: center;
+    align-self: center;
   }
 
-  .icons{
-    padding-left: 700px;
+
+
+
+  /*------------------------projetos-------------------------------------*/
+
+  .projetos {
+
+    display: grid;
+    justify-content: left;
+    grid-column: 1;
+    margin-left: 10%;
+    grid-template-columns: 0px;
+    gap: 20px;
+    margin-bottom: 20px;
+
   }
 
-  .uil-facebook-f, .uil-twitter-alt, .uil-instagram, .uil-linkedin-alt{
-      font-size: 40px;
-      color: #00a78e;
-      margin-left: 80px;
-    }
-  
+  .projetos_box {
+    margin-left: 0px;
+    width: 220px;
+    height: 220px;
+    float: left;
+    padding: 30px;
+    
+
+  }
+
+  .uil-palette,
+  .uil-object-group,
+  .uil-house-user,
+  .uil-brackets-curly {
+    font-size: 60px;
+
+  }
+ 
+
+
+
+  /*-----------------------contatos---------------------------*/
+
+  .contato_box {
+    height: 250px;
+    padding-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  .color_contato {
+    margin-left: 50px;
+  }
+
+  .contato_box> .texto{
+    color: #ddd;
+  }
+
+
+  /*------------------------footer-------------------------------------*/
+  footer {
+    
+    height: 100px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+  }
+
+  .uil-facebook-f,
+  .uil-twitter-alt,
+  .uil-instagram,
+  .uil-linkedin-alt {
+    font-size: 25px;
+    margin-left: 20px;
+  }
+
+  .icons {
+    padding-left: 60px;
+  }
+
+  footer>.Bold {
+       font-size: 25px;
+       padding: 0px 0px 0px 0px; 
+  }
+
+}
