@@ -1,6 +1,8 @@
 ## Enzo pascal portfolio
 **desafios:** D2.2 LAyout e D2.3 Mobile
 
+Veja o site online em: (https://marilia-borgo.github.io/Enzo-pascal-portfolio-desafio/)
+
 *
 **Telas Desktop** 
 <h1 align="center">
