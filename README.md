@@ -6,12 +6,12 @@ Veja o site online em: (https://marilia-borgo.github.io/Enzo-pascal-portfolio-de
 *
 **Telas Desktop** 
 <h1 align="center">
-  <img alt="página home" title="página home" src="./src/images/layout-desktop.jpeg" />
+  <img alt="página home" title="página home" src="./images/layout-desktop.jpeg" />
  </h1>
 
 **Telas Mobile**
 <h1 align="center">
-  <img alt="página home" title="página home" src="./src/images/layout-mobile.jpeg" />
+  <img alt="página home" title="página home" src="./images/layout-mobile.jpeg" />
  </h1>
  
  
