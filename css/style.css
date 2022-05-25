@@ -245,6 +245,11 @@ footer>.Bold {
   margin-left: 80px;
 }
 
+footer > a {
+  display: flex;
+  text-align: center;
+}
+
 /*----------------------------------------media queries------------------------------------------*/
 
 /*notebbok*/
